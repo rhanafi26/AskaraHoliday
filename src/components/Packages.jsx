@@ -18,7 +18,7 @@ const Packages = () => {
 
   const currentTitle = language === 'id' ? title.id : title.en;
 
-  const phoneNumber = '6281234567890';
+  const phoneNumber = '6281249138543';
 
   const handleWhatsApp = (packageName) => {
     const message = `Halo Regina Trans! Saya tertarik dengan paket: ${packageName}. Mohon info lebih lanjut.`;
