@@ -11,15 +11,25 @@ export default defineConfig({
         drop_debugger: true,
       },
     },
+    chunkSizeWarningLimit: 1000,
     rollupOptions: {
       output: {
-        manualChunks: {
-          'react-vendor': ['react', 'react-dom'],
-          'motion': ['framer-motion'],
-          'icons': ['react-icons'],
+        // Gunakan function untuk manualChunks (format yang kompatibel)
+        manualChunks(id) {
+          if (id.includes('node_modules')) {
+            if (id.includes('react') || id.includes('react-dom')) {
+              return 'react-vendor'
+            }
+            if (id.includes('framer-motion')) {
+              return 'motion'
+            }
+            if (id.includes('react-icons')) {
+              return 'icons'
+            }
+            return 'vendor'
+          }
         },
       },
     },
-    chunkSizeWarningLimit: 1000,
   },
 })
