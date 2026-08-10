@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://regina-trans.vercel.app/sitemap.xml
+Sitemap: https://reginatrans.vercel.app/sitemap.xml
