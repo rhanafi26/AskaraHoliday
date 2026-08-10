@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply bg-primary text-white;
+    font-family: 'Inter', sans-serif;
+  }
+}
+
+@layer components {
+  /* Neumorphism Dark */
+  .card-neumo-dark {
+    @apply bg-primary rounded-2xl shadow-neumo-dark transition-all duration-300;
+  }
+  
+  .card-neumo-dark:hover {
+    @apply shadow-neumo-lg;
+  }
+  
+  /* Neumorphism Gold Accent */
+  .card-neumo-gold {
+    @apply bg-primary rounded-2xl shadow-neumo-gold border border-accent/20 transition-all duration-300;
+  }
+  
+  /* Button Neumorphism */
+  .btn-neumo {
+    @apply bg-primary rounded-full shadow-neumo-dark px-8 py-3.5 font-semibold text-accent transition-all duration-300 hover:shadow-neumo-lg hover:-translate-y-0.5 active:shadow-neumo-dark-inset active:translate-y-0.5;
+  }
+  
+  .btn-neumo-gold {
+    @apply bg-accent rounded-full shadow-neumo-dark px-8 py-3.5 font-semibold text-primary transition-all duration-300 hover:shadow-neumo-lg hover:-translate-y-0.5 active:shadow-neumo-dark-inset active:translate-y-0.5;
+  }
+  
+  /* Input Neumorphism */
+  .input-neumo {
+    @apply bg-primary rounded-xl shadow-neumo-dark-inset px-4 py-3 w-full text-white placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-accent/50 transition-all duration-300;
+  }
+  
+  /* Section Title */
+  .section-title {
+    @apply text-3xl md:text-4xl font-bold text-white mb-4;
+  }
+  
+  .section-title span {
+    @apply text-accent;
+  }
+  
+  .section-subtitle {
+    @apply text-lg text-gray-400 max-w-2xl mx-auto;
+  }
+}
