@@ -2,27 +2,27 @@ export const packagesData = {
   id: [
     {
       id: 1,
-      title: 'Paket Wisata Bromo',
-      description: 'Paket wisata Bromo dengan transportasi bus/mobil, tour guide, dan akomodasi.',
-      price: 'Rp 2.500.000',
+      title: 'Paket Wisata Semarang',
+      description: 'Paket wisata Semarang dengan transportasi bus, Makan 2 kali, dan akomodasi, semua lengkap duduk manis saja.',
+      price: 'Rp 350.000',
       image: '/packages/bromo.webp',
-      duration: '3 Hari 2 Malam'
+      duration: '1 Hari 1 Malam'
     },
     {
       id: 2,
-      title: 'Paket Wisata Bali',
-      description: 'Paket wisata Bali lengkap dengan transportasi, hotel bintang 4, dan tour guide.',
-      price: 'Rp 5.000.000',
+      title: 'Paket Wisata Malang',
+      description: 'Paket wisata Malang lengkap dengan transportasi, Makan 2 kali, dan akomodasi, semua lengkap siss.',
+      price: 'Rp 380.000',
       image: '/packages/bali.webp',
       duration: '4 Hari 3 Malam'
     },
     {
       id: 3,
       title: 'Paket Corporate Jogja',
-      description: 'Paket corporate retreat di Jogja dengan bus premium, meeting room, dan team building.',
-      price: 'Rp 3.750.000',
+      description: 'Paket corporate retreat di Jogja dengan bus premium, Makan 2 kali, dan akomodasi semua lengkap dijamin nyaman.',
+      price: 'Rp 230.000',
       image: '/packages/jogja.webp',
-      duration: '2 Hari 1 Malam'
+      duration: '1 Hari 1 Malam'
     }
   ],
   en: [

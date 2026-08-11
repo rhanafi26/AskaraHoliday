@@ -12,13 +12,13 @@ const Packages = () => {
   const data = language === 'id' ? packagesData.id : packagesData.en;
 
   const title = {
-    id: { title: 'Paket Unggulan', subtitle: 'Perjalanan Wisata Terbaik Bersama Regina Trans' },
-    en: { title: 'Featured Packages', subtitle: 'Best Tour Travel with Regina Trans' }
+    id: { title: 'Paket Unggulan', subtitle: 'Perjalanan Wisata Terbaik Bersama Askara Holiday, mau lihat paket lengkap hubungi kami ❤️' },
+    en: { title: 'Featured Packages', subtitle: 'Best Tour Travel with Askara Holiday' }
   };
 
   const currentTitle = language === 'id' ? title.id : title.en;
 
-  const phoneNumber = '6281249138543';
+  const phoneNumber = '628814939010';
 
   const handleWhatsApp = (packageName) => {
     const message = `Halo Regina Trans! Saya tertarik dengan paket: ${packageName}. Mohon info lebih lanjut.`;

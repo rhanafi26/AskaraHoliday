@@ -10,20 +10,20 @@ const Gallery = () => {
   const [selectedImage, setSelectedImage] = useState(null);
 
   const title = {
-    id: { title: 'Galeri', subtitle: 'Dokumentasi Perjalanan Bersama Regina Trans' },
-    en: { title: 'Gallery', subtitle: 'Journey Documentation with Regina Trans' }
+    id: { title: 'Galeri', subtitle: 'Dokumentasi Perjalanan Bersama Askara Holiday' },
+    en: { title: 'Gallery', subtitle: 'Journey Documentation with Askara Holiday' }
   };
 
   const currentTitle = language === 'id' ? title.id : title.en;
 
   // Dummy gallery images - ganti dengan foto asli Anda
   const images = [
-    { id: 1, src: '/gallery/gallery1.jpg', title: 'Bus Premium Regina Trans' },
-    { id: 2, src: '/gallery/gallery2.jpg', title: 'Mobil Executive' },
-    { id: 3, src: '/gallery/gallery3.jpg', title: 'Hiace Premium' },
-    { id: 4, src: '/gallery/gallery4.jpg', title: 'Perjalanan Wisata Bromo' },
-    { id: 5, src: '/gallery/gallery5.jpg', title: 'Corporate Event' },
-    { id: 6, src: '/gallery/gallery6.jpg', title: 'Armada Regina Trans' },
+    { id: 1, src: '/gallery/gallery1.webp', title: '' },
+    { id: 2, src: '/gallery/gallery2.webp', title: '' },
+    { id: 3, src: '/gallery/gallery3.webp', title: '' },
+    { id: 4, src: '/gallery/gallery4.webp', title: '' },
+    { id: 5, src: '/gallery/gallery5.webp', title: '' },
+    { id: 6, src: '/gallery/gallery6.webp', title: '' },
   ];
 
   const openLightbox = (image) => {

@@ -67,7 +67,7 @@ const Navbar = () => {
                 <h1 className={`font-bold text-sm transition-colors ${
                   isScrolled ? 'text-white' : 'text-white'
                 }`}>
-                  Regina Trans
+                  Askara Holiday
                 </h1>
                 <p className={`text-[10px] transition-colors ${
                   isScrolled ? 'text-gray-400' : 'text-gold/80'

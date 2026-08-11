@@ -7,24 +7,24 @@ const Footer = () => {
 
   const content = {
     id: {
-      title: 'Regina Trans',
-      desc: 'Teman Travelmu. Penyedia jasa sewa bus, mobil, dan hiace premium untuk perjalanan bisnis, wisata, dan corporate event.',
+      title: 'Askara Holiday',
+      desc: 'Teman Travelmu. Penyedia jasa sewa bus premium untuk perjalanan bisnis, wisata, dan corporate event.',
       quickLinks: 'Tautan Cepat',
       services: 'Layanan',
       follow: 'Ikuti Kami',
       rights: 'Hak Cipta Dilindungi.',
       links: ['Beranda', 'Booking', 'Layanan', 'Tentang', 'Paket', 'Testimoni', 'Galeri', 'Kontak'],
-      serviceLinks: ['Sewa Bus', 'Sewa Mobil', 'Sewa Hiace']
+      serviceLinks: ['Sewa Bus', 'Fotografer', 'Penginapan']
     },
     en: {
-      title: 'Regina Trans',
-      desc: 'Your Travel Friend. Premium bus, car, and hiace rental services for business travel, tourism, and corporate events.',
+      title: 'Askara Holiday',
+      desc: 'Your Travel Friend. Premium bus rental services for business travel, tourism, and corporate events.',
       quickLinks: 'Quick Links',
       services: 'Services',
       follow: 'Follow Us',
       rights: 'All Rights Reserved.',
       links: ['Home', 'Booking', 'Services', 'About', 'Packages', 'Testimonials', 'Gallery', 'Contact'],
-      serviceLinks: ['Bus Rental', 'Car Rental', 'Hiace Rental']
+      serviceLinks: ['Bus Rental', 'Fotografer', 'Hotel']
     }
   };
 

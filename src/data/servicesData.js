@@ -8,12 +8,12 @@ export const servicesData = {
     {
       id: 2,
       title: 'Sewa Mobil',
-      description: 'Mobil executive dan SUV untuk perjalanan bisnis, antar jemput tamu, dan mobilitas corporate dengan kenyamanan maksimal.'
+      description: 'Dokumentasi perjalanan wisata anda untuk kenangan yang manis serta penuh cinta.'
     },
     {
       id: 3,
       title: 'Sewa Hiace',
-      description: 'Hiace premium kapasitas 10-15 penumpang, ideal untuk perjalanan keluarga, tim kecil, dan acara perusahaan.'
+      description: 'Makanan yang pasti lezat dan sesuai selera serta hotel yang nyaman.'
     }
   ],
   en: [
@@ -25,12 +25,12 @@ export const servicesData = {
     {
       id: 2,
       title: 'Car Rental',
-      description: 'Executive cars and SUVs for business travel, guest pickups, and corporate mobility with maximum comfort.'
+      description: 'Excelent documentation on all your situation make it beautifull day.'
     },
     {
       id: 3,
       title: 'Hiace Rental',
-      description: 'Premium Hiace with 10-15 passenger capacity, ideal for family trips, small teams, and company events.'
+      description: 'Delicious foods and good hotels who make your tour better experience.'
     }
   ]
 };

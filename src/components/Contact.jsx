@@ -12,18 +12,18 @@ const Contact = () => {
     id: {
       title: 'Kontak Kami',
       subtitle: 'Hubungi Kami untuk Pemesanan & Informasi',
-      address: 'Desa Klangon, Kecamatan Saradan, Kabupaten Madiun, Jawa Timur',
-      phone: '+6281249138543',
-      email: 'info@reginatrans.com',
+      address: 'Caruban, Kabupaten Madiun, Jawa Timur',
+      phone: '+628814939010',
+      email: 'askaraholiday@gmail.com',
       hours: 'Senin - Minggu, 08:00 - 22:00',
       whatsapp: 'Chat WhatsApp'
     },
     en: {
       title: 'Contact Us',
       subtitle: 'Contact Us for Booking & Information',
-      address: 'Desa Klangon, Kecamatan Saradan, Kabupaten Madiun, Jawa Timur',
-      phone: '+6281249138543',
-      email: 'info@reginatrans.com',
+      address: 'Caruban, Kabupaten Madiun, Jawa Timur',
+      phone: '+628814939010',
+      email: 'askaraholiday@gmail.com',
       hours: 'Monday - Sunday, 08:00 - 22:00',
       whatsapp: 'Chat WhatsApp'
     }
@@ -33,7 +33,7 @@ const Contact = () => {
 
   const handleWhatsApp = () => {
     const message = 'Halo Regina Trans! Saya ingin bertanya tentang layanan Anda.';
-    window.open(`https://wa.me/6281249138543?text=${encodeURIComponent(message)}`, '_blank');
+    window.open(`https://wa.me/628814939010?text=${encodeURIComponent(message)}`, '_blank');
   };
 
   return (

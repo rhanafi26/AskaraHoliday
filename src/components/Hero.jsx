@@ -8,20 +8,20 @@ const Hero = () => {
 
   const content = {
     id: {
-      title: 'Regina Trans',
+      title: 'Askara Holiday',
       subtitle: 'Teman Travelmu',
-      description: 'Penyedia jasa sewa bus, mobil, dan hiace premium untuk perjalanan bisnis, wisata, dan corporate event. Aman, nyaman, dan terpercaya.',
+      description: 'Penyedia jasa perjalanan bisnis, wisata, dan corporate event. Aman, nyaman, dan terpercaya.',
       cta: 'Booking Sekarang',
       cta2: 'Lihat Layanan',
-      badge: '✨ Terpercaya Sejak 2018'
+      badge: '✨ Terpercaya Sejak 2020'
     },
     en: {
-      title: 'Regina Trans',
+      title: 'Askara Holiday',
       subtitle: 'Your Travel Friend',
-      description: 'Premium bus, car, and hiace rental services for business travel, tourism, and corporate events. Safe, comfortable, and trustworthy.',
+      description: 'Premium services for business travel, tourism, and corporate events. Safe, comfortable, and trustworthy.',
       cta: 'Book Now',
       cta2: 'View Services',
-      badge: '✨ Trusted Since 2018'
+      badge: '✨ Trusted Since 2020'
     }
   };
 

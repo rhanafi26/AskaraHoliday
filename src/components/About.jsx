@@ -12,14 +12,14 @@ const About = () => {
     id: {
       title: 'Tentang Kami',
       subtitle: 'Partner Perjalanan Terpercaya Anda',
-      description: 'Regina Trans hadir sebagai solusi transportasi terpercaya untuk perjalanan bisnis, wisata, dan corporate event. Dengan armada premium dan sopir profesional, kami siap menemani setiap perjalanan Anda dengan aman, nyaman, dan tepat waktu.',
+      description: 'Askara Holiday hadir sebagai penyedia layanan jasa yang menemani anda yang ingin diburan dengan destinasi serta rute terbaik dan juga hotel yang sangat nyaman untuk anda yang ingin berlibur dengan kerabat maupun rekan kerja, memastikan perjalanan anda nyaman, aman, serta penuh makna',
       vision: 'Menjadi penyedia jasa transportasi terdepan di Indonesia dengan pelayanan premium dan harga kompetitif.',
       mission: 'Memberikan pengalaman perjalanan terbaik melalui armada terawat, sopir profesional, dan layanan yang responsif.'
     },
     en: {
       title: 'About Us',
       subtitle: 'Your Trusted Travel Partner',
-      description: 'Regina Trans is your trusted transportation solution for business travel, tourism, and corporate events. With premium fleet and professional drivers, we are ready to accompany every journey safely, comfortably, and on time.',
+      description: 'Askara Holiday is your trusted transportation solution for business travel, tourism, and corporate events. With premium fleet and professional drivers, we are ready to accompany every journey safely, comfortably, and on time.',
       vision: 'To become the leading transportation service provider in Indonesia with premium service and competitive prices.',
       mission: 'Providing the best travel experience through well-maintained fleets, professional drivers, and responsive service.'
     }
@@ -29,7 +29,7 @@ const About = () => {
 
   const features = {
     id: [
-      { icon: FaBus, title: 'Armada Premium', desc: 'Bus, mobil, dan hiace terawat' },
+      { icon: FaBus, title: 'Armada Premium', desc: 'Bus yang sangat terawat' },
       { icon: FaUsers, title: 'Sopir Profesional', desc: 'Berpengalaman dan ramah' },
       { icon: FaShieldAlt, title: 'Aman & Terpercaya', desc: 'Asuransi perjalanan lengkap' },
       { icon: FaCar, title: 'Harga Kompetitif', desc: 'Tanpa biaya tersembunyi' },

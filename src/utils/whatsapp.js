@@ -1,5 +1,5 @@
 export const sendWhatsApp = (data) => {
-  const phoneNumber = import.meta.env.VITE_WHATSAPP_NUMBER || '+6281249138543'; // Ganti dengan nomor WhatsApp Anda
+  const phoneNumber = import.meta.env.VITE_WHATSAPP_NUMBER || '+628814939010'; // Ganti dengan nomor WhatsApp Anda
   
   const message = 
     `📋 *Regina Trans - Booking Form*\n\n` +
