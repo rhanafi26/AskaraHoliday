@@ -4,7 +4,7 @@ export const testimonialsData = {
       id: 1,
       name: 'Bapak Budi Santoso',
       role: 'Direktur PT Maju Jaya',
-      text: 'Sangat puas dengan layanan Regina Trans. Bus yang disediakan sangat nyaman dan sopirnya profesional. Pengalaman corporate event kami menjadi lebih berkesan.',
+      text: 'Sangat puas dengan layanan Askara Holiday. Bus yang disediakan sangat nyaman dan sopirnya profesional. Pengalaman corporate event kami menjadi lebih berkesan.',
       rating: 5
     },
     {
