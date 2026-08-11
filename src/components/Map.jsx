@@ -38,7 +38,7 @@ const Map = () => {
           <div className="card-neumo-dark p-4 border border-gold/10">
             <img
               src="/map-java.webp"
-              alt="Peta Pulau Jawa - Regina Trans Service Area"
+              alt="Peta Pulau Jawa - Askara Holiday Service Area"
               className="w-full h-auto rounded-xl"
               onError={(e) => {
                 // Fallback jika gambar tidak ditemukan - SVG inline
@@ -75,7 +75,7 @@ const Map = () => {
           className="mt-8 grid grid-cols-2 md:grid-cols-4 gap-4 max-w-3xl mx-auto"
         >
           {[
-            { city: 'Jakarta', label: 'Kantor Pusat' },
+            { city: 'Madiun', label: 'Kantor Pusat' },
             { city: 'Bali', label: 'Luar Jawa' },
             { city: 'Madura', label: 'Luar Jawa' },
             { city: 'Lainya', label: 'Luar Jawa' },
