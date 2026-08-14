@@ -7,12 +7,12 @@ export const servicesData = {
     },
     {
       id: 2,
-      title: 'Sewa Mobil',
+      title: 'Dokumentasi',
       description: 'Dokumentasi perjalanan wisata anda untuk kenangan yang manis serta penuh cinta.'
     },
     {
       id: 3,
-      title: 'Sewa Hiace',
+      title: 'Makan',
       description: 'Makanan yang pasti lezat dan sesuai selera serta hotel yang nyaman.'
     }
   ],
@@ -24,12 +24,12 @@ export const servicesData = {
     },
     {
       id: 2,
-      title: 'Car Rental',
+      title: 'Documentation',
       description: 'Excelent documentation on all your situation make it beautifull day.'
     },
     {
       id: 3,
-      title: 'Hiace Rental',
+      title: 'Food',
       description: 'Delicious foods and good hotels who make your tour better experience.'
     }
   ]
