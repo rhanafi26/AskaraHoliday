@@ -80,10 +80,10 @@ const Footer = () => {
               <a href="" className="w-10 h-10 bg-white/5 rounded-xl flex items-center justify-center hover:bg-accent/20 transition-all border border-gold/10 hover:border-gold/30">
                 <FaFacebook className="text-accent" />
               </a>
-              <a href="https://www.tiktok.com/link/v2?aid=1988&lang=en-GB&scene=bio_url&target=https%3A%2F%2Fwww.instagram.com%2Fregina.transs%3Figsh%3Dbmt1MjRja2FpbGp1%26utm_source%3Dqr" className="w-10 h-10 bg-white/5 rounded-xl flex items-center justify-center hover:bg-accent/20 transition-all border border-gold/10 hover:border-gold/30">
+              <a href="https://www.instagram.com/aksara_holiday_travel/" className="w-10 h-10 bg-white/5 rounded-xl flex items-center justify-center hover:bg-accent/20 transition-all border border-gold/10 hover:border-gold/30">
                 <FaInstagram className="text-accent" />
               </a>
-              <a href="https://www.tiktok.com/@officialreginatrans?is_from_webapp=1&sender_device=pc" className="w-10 h-10 bg-white/5 rounded-xl flex items-center justify-center hover:bg-accent/20 transition-all border border-gold/10 hover:border-gold/30">
+              <a href="https://www.tiktok.com/@official.den_sandi001/photo/7666864290825080072" className="w-10 h-10 bg-white/5 rounded-xl flex items-center justify-center hover:bg-accent/20 transition-all border border-gold/10 hover:border-gold/30">
                 <FaYoutube className="text-accent" />
               </a>
               <a href="#" className="w-10 h-10 bg-white/5 rounded-xl flex items-center justify-center hover:bg-accent/20 transition-all border border-gold/10 hover:border-gold/30">
